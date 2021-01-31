@@ -63,6 +63,7 @@ def main():
     secret_name = args.secret
     region_name = args.region
     password=get_secret(secret_name,region_name)
+    # add code here to access the database
     print("@@Result=" + str(password))
 
 if __name__ == '__main__':
